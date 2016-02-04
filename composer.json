@@ -1,0 +1,21 @@
+{
+    "name": "gekuhoko/test",
+    "description": "Test of Symfony console command",
+    "require": {
+        "symfony/console": "^3.0",
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Gerhard Kuschnik",
+            "email": "kuschnik.gerhard@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Console\\Console\\Command\\": "console/command"
+        }
+    }
+}
